@@ -56,6 +56,21 @@
 #### 11.推送本地库到远程库（需要先把远程库拉到本地）
 
 1. 远程库拉到本地库
-   - git pull origin master
+   - git pull origin master![](C:\Users\Administrator\Desktop\andy\img\pull.png)
 2. 推送本地库到远程
    - git push origin master
+3. 创建.gitignore文件
+   - 该文件下的名字不会被上传到github上
+
+#### 12. 远程克隆
+
+- git clone https://github.com/Unnamed-handsome-guy/andy.git
+
+#### 13.分支
+
+1. 创建分支
+   - ​	git branch 分支名
+2. 切换分支
+   - ​	git checkout 分支名
+3. 创建切换分支
+   - git checkout -b 分支名
